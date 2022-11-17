@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-services',
+  // selector: 'app-services',  element style
+  selector: '[app-services]',  //attribute style
   template: `<app-service></app-service><app-service></app-service><app-service></app-service>`,
   styleUrls: ['./services.component.css']
 })
