@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-services',
-  templateUrl: './services.component.html',
+  template: `<app-service></app-service><app-service></app-service><app-service></app-service>`,
   styleUrls: ['./services.component.css']
 })
 export class ServicesComponent implements OnInit {
